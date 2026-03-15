@@ -1,0 +1,11 @@
+x=iris
+dim(x)
+summary(x)
+head(x)
+print(x)
+hist(x$Sepal.Length[1:50],main = 'Histogram',col='green',xlab='Sepal.Length')
+barplot(x$Sepal.Length[1:50],main='Barplot',col='red',xlab='Sepal.Length')
+pie(x$Sepal.Length[1:50],main='pie-chart',col="pink")
+plot(x,main='plot-chart',col='blue')
+boxplot(x,main='Boxplot',col='yellow')
+scatter.smooth(x,main="Scatter Plot",col="violet")
